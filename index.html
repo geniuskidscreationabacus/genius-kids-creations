@@ -6,7 +6,7 @@
 <title>Abacus &amp; Vedic Maths Classes in Karad | Genius Kids Creations</title>
 <meta name="description" content="Genius Kids Creations is Karad's authorised IPA Abacus franchisee, run by Mr. Vidyasagar Kulkarni for over 20 years. Weekend batches, private classes and online classes for children across India and overseas. Enrol today.">
 <meta name="robots" content="index, follow">
-<link rel="icon" type="image/png" href="favicon.png">
+<link rel="icon" type="image/png" href="favicon.jpg">
 <link rel="canonical" href="https://geniuskidscreationabacus.co.in/">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Genius Kids Creations">
@@ -205,9 +205,10 @@ nav{position:sticky;top:0;z-index:100;background:var(--white);border-bottom:1px 
 .carousel-viewport{position:relative;overflow:hidden;border-radius:14px;}
 .carousel-track{display:flex;transition:transform 0.45s ease;}
 .carousel-slide{flex:0 0 100%;}
-.carousel-media{height:260px;border-radius:14px;background:var(--off-white);border:1.5px dashed var(--green-mid);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.6rem;overflow:hidden;}
-.carousel-media img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;}
-.carousel-media iframe{width:100%;height:100%;border:none;border-radius:14px;}
+.carousel-media{border-radius:14px;background:var(--off-white);border:1.5px dashed var(--green-mid);overflow:hidden;display:flex;flex-direction:column;}
+.carousel-media img{width:100%;height:auto;display:block;border-radius:14px;}
+/* Videos keep a fixed aspect ratio since they have no natural height */
+.carousel-media iframe{width:100%;aspect-ratio:16/9;border:none;border-radius:14px;display:block;}
 .carousel-media-label{font-size:0.85rem;font-weight:700;color:var(--green);}
 .carousel-caption{margin-top:0.75rem;padding:0.7rem 0.9rem;background:var(--off-white);border:1px dashed var(--border);border-radius:12px;font-size:0.78rem;color:var(--muted);text-align:center;}
 .carousel-btn{position:absolute;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;background:var(--white);border:1px solid var(--border);box-shadow:0 4px 14px rgba(0,0,0,0.18);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--text);}
@@ -305,7 +306,7 @@ footer{background:var(--green);position:relative;overflow:hidden;}
   .achievements-stats{grid-template-columns:1fr 1fr;}
   .footer-top{grid-template-columns:1fr;gap:1.75rem;}
   .hero h1{max-width:none;}
-  .carousel-media{height:200px;}
+  /* carousel-media auto-sizes to image on mobile too */
   .courses-cta{flex-direction:column;}
   .courses-cta .btn{width:100%;justify-content:center;}
 }
@@ -336,7 +337,7 @@ footer{background:var(--green);position:relative;overflow:hidden;}
 <nav>
 <div class="nav-inner">
   <a class="nav-brand" href="#">
-    <img class="nav-logo-img" src="logo.png" alt="Genius Kids Creations logo">
+    <img class="nav-logo-img" src="logo.jpg" alt="Genius Kids Creations logo">
   </a>
   <button type="button" class="nav-toggle-btn" id="navToggleBtn" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
     <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -585,7 +586,7 @@ footer{background:var(--green);position:relative;overflow:hidden;}
         </div>
 
         <div class="carousel-slide">
-          <div class="carousel-media"><iframe src="https://www.youtube.com/embed/VIDEO_ID_1" title="Class video 1" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div>
+          <div class="carousel-media"><iframe src="https://www.youtube.com/embed/sgVRMuB39sk" title="Class video 1" allowfullscreen allow="accelerometer;autoplay;clipboard-write;encrypted-media;gyroscope;picture-in-picture"></iframe></div>
           <p class="carousel-caption">[Add a caption about this video]</p>
         </div>
 
@@ -743,7 +744,7 @@ footer{background:var(--green);position:relative;overflow:hidden;}
 </div>
 <div class="footer-top">
   <div class="footer-brand">
-    <div class="footer-brand-logo"><img class="footer-logo-img" src="logo.png" alt="Genius Kids Creations logo"></div>
+    <div class="footer-brand-logo"><img class="footer-logo-img" src="logo.jpg" alt="Genius Kids Creations logo"></div>
     <p>IPA Abacus authorised franchisee serving Karad and the surrounding region since the early 2000s. Fixed batches, private classes, and online classes for students in India and overseas.</p>
   </div>
   <div class="footer-col footer-col-nav">
